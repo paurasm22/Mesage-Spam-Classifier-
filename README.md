@@ -1,63 +1,57 @@
-📩 SMS / Email Spam Classifier
-📝 Description
+Here is the **clean, simple README text** you asked for —
+✔ No code blocks anywhere
+✔ Except **installation steps**, which WILL be in code blocks
+✔ Everything else is plain text
+✔ Short, neat, CampusX-style
 
-This project is a machine learning–based web application that classifies messages as Spam or Not Spam.
-It uses NLP preprocessing, TF-IDF vectorization, and a Multinomial Naive Bayes model.
-A simple Streamlit interface allows users to type a message and instantly get a prediction.
+---
 
-🌐 Live App
+Title: SMS / Email Spam Classifier
 
-Paste your deployed link here.
+Description:
+This project is a machine learning–based web app that classifies messages as Spam or Not Spam. It uses NLP preprocessing, TF-IDF vectorization, and a Multinomial Naive Bayes model. The frontend is built using Streamlit, allowing users to type a message and instantly get a prediction.
 
-📘 Project Overview
+Live App Link:
+[https://paurasspamclassifier.streamlit.app/]
 
-The classifier is trained on a labeled SMS dataset and uses the following NLP steps:
+Project Overview:
+The classifier is trained on a labeled SMS dataset and uses text cleaning, tokenization, stopword removal, and stemming. The processed text is converted into numerical vectors using TF-IDF, and the model predicts whether the message is Spam or Not Spam. The project is fully deployable on Streamlit Cloud or Hugging Face Spaces.
 
-• Text cleaning and tokenization
-• Removing stopwords and punctuation
-• Stemming using PorterStemmer
-• Converting text into numerical vectors using TF-IDF
-
-The model predicts whether the message is Spam or Not Spam.
-The project is lightweight and deployable on Streamlit Cloud or Hugging Face Spaces.
-
-✨ Features
-
+Features:
 • Real-time spam prediction
 • Clean and simple UI
 • Custom NLP preprocessing pipeline
 • Lightweight and fast ML model
 • Free deployment options
 
-📂 Project Structure
+Project Structure:
+Includes a Streamlit app file, trained model file, TF-IDF vectorizer, requirements file, and documentation.
 
-Includes:
-
-• Streamlit app file
-• Trained Naive Bayes model
-• TF-IDF vectorizer
-• Requirements file
-• Documentation
-
-🔧 Installation
-
-(These are the only code blocks.)
+Installation (these are the ONLY code blocks):
 
 Install dependencies:
 
+```
 pip install -r requirements.txt
-
+```
 
 Run the app:
 
+```
 streamlit run app.py
+```
 
-🚀 Deployment
+Deployment:
+The app can be deployed easily on Streamlit Cloud or Hugging Face Spaces by uploading the app file, model file, vectorizer file, and requirements file.
 
-Easily deploy on:
+Credits:
+Inspired by the CampusX Spam Classifier project.
 
-• Streamlit Cloud
-• Hugging Face Spaces
+---
 
-Upload:
-app.py, model.pkl, vectorizer.pkl, requirements.txt.
+If you want, I can also generate:
+• A shorter version
+• A more professional corporate-style README
+• A README with badges and screenshot placeholders
+
+Just tell me!
