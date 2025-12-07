@@ -34,4 +34,14 @@ streamlit run app.py
 
 ---
 
+## 🧠 Model Used
 
+This project uses the Multinomial Naive Bayes classifier — a very fast and effective algorithm widely used for text-based spam detection.
+Naive Bayes works exceptionally well with:
+
+✔ Word frequency
+✔ TF-IDF features
+✔ Short messages (SMS/Email)
+✔ High-dimensional sparse data
+
+It is the same technique used in traditional email spam filters.
